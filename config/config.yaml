@@ -1,0 +1,12 @@
+# Application
+app:
+  environment: 'dev'
+  host: '127.0.0.1'
+  port: 8080
+  url: 'http://127.0.0.1:8080'
+  endpoint: '/gopher'
+db:
+  username: ''
+  password: ''
+  db_name: 'gophersApi'
+  db_uri: 'mongodb://127.0.0.1:27017/gophersApi'
